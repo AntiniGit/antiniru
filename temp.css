@@ -1,0 +1,2974 @@
+.zi-big-title, .zi-h2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-big-title-comment {
+}
+.zi-big-title-call {
+    text-align: center
+}
+.zi-first-screen-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-top: 10px; */
+    /* font-size: 12px; */
+    /* text-align: left
+     */
+}
+.zi-first-screen-descr-main {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+    text-align: left
+}
+
+.zi-zakladki-head-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-f-scr-hr {
+    width: 100%;
+    height: 3px;
+    margin: 30px auto;
+    border-bottom: 1px dashed #CCC
+}
+
+.zi-portfolio {
+    width: 100%;
+    margin: 0 auto
+}
+.zi-port {
+    display: none
+}
+#zi-right {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 850px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer
+}
+#zi-left {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+    display: none
+}
+
+.zi-w-okna-preim {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    /*font-family: constantine*/
+}
+.zi-w-okna-preim-desc {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 14px; */
+    /*font-weight: 100;*/
+    /* text-align: left
+     */
+}
+.zi-w-okna-preim-desc img {
+    float: left;
+    margin-right: 20px
+}
+
+.zi-steklo-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-steklo-desrc {
+    display: block;
+    height: auto;
+    /* font-size: 12px; */
+    /* line-height: 15px; */
+    /* font-weight: normal; */
+    /* text-align: left
+     */
+}
+
+.zi-prof-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    text-align: left
+}
+.zi-prof-descr img {
+    float: left
+}
+
+.zi-zakladki table tr td:first-child, .zi-f-screen-table tr td:first-child {
+    padding: 0 20px 20px 0!important
+}
+.zi-f-screen-table tr td {
+    padding: 0 0px 20px 0!important
+}
+.zi-zakladki-nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-nav-el {
+}
+.zi-zakladki-nav-el:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -115px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el:active {
+}
+.zi-zakladki-nav-el-active {
+}
+.zi-zakladki-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-active span {
+}
+
+.zi-zakladki-nav-el-decor {
+}
+.zi-zakladki-nav-el-decor:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -115px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el-decor:active {
+}
+.zi-zakladki-nav-el-active-decor {
+}
+.zi-zakladki-nav-el-decor span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-nav-el-decor:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-decor:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-active-decor span {
+}
+
+.zi-zakladki-cont-active {
+    width: 100%;
+    margin: 55px auto 0px;
+    background: #fff
+}
+.zi-zakladki-cont {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 352px;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 22px;
+    /*font-family: constantine*/
+}
+.zi-zakladki-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* font-size: 12px
+     */
+}
+.zi-zakladki-cont-descr-big {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #333
+}
+
+.zi-zakladki-cont-descr-big img {
+    float: left;
+    margin-right: 30px
+}
+
+.zi-zakladki-cont-doors-active {
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-cont-doors {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-cont-doors-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    /*font-family: constantine*/
+}
+
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+
+.zi-comment {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin: 48px auto 34px auto; */
+    /* line-height: 19px; */
+    text-align: left
+}
+.zi-comment-main {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 48px auto 0 auto;
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+    line-height: 19px;
+    text-align: left
+}
+
+.zi-mat-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 0px
+}
+.zi-mat-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* font-size: 12px
+     */
+}
+.zi-distance {
+    width: 100%;
+    height: 33px
+}
+
+.zi-zayava-txt {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #666;
+    text-align: center
+}
+.zi-zayava-phone {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 58px;
+    color: #666;
+    text-align: center
+}
+.zi-input {
+    width: 243px;
+    height: 57px;
+    padding: 0 20px;
+    margin: 8px 10px 0 0;
+    border: 1px solid #e6e6e6;
+    font-style: italic;
+    font-size: 18px
+}
+.zi-form-footer {
+    display: block;
+    width: 737px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center
+}
+.zi-zayava-button {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+.zi-zayava-button:hover {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -95px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+.zi-zayava-button:active {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -185px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+
+#zi-popup {
+    display: none;
+    position: fixed;
+    width: 850px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -425px;
+    background: #efefef;
+    z-index: 1000;
+    box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -webkit-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -moz-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -o-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    opacity: 0.0
+}
+#zi-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0.3;
+    cursor: pointer
+}
+#zi-close:hover {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 1.0;
+    cursor: pointer
+}
+
+.zi-main-nav-active {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000
+}
+.zi-main-nav {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #8c8c8c
+}
+.zi-main-nav:hover {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    color: #666
+}
+.zi-main-nav:active {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    color: #666
+}
+.zi-phone {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: 370px;
+    /*font-family: Arial,sans-serif*/
+}
+#zi-phone-time {
+    display: block;
+    font-size: 12px;
+    color: #999
+}
+#zi-phone-num {
+    display: block;
+    font-size: 18px;
+    color: #666
+}
+.zi-top-but {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    z-index: 10000
+}
+.zi-top-but:hover {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    background-position: 0px -52px
+}
+.zi-top-but:active {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    background-position: 0px 49px
+}
+
+.pagedescription .zi-f-screen-table td img,
+.zi-zakladki table td img {
+    margin: 0 0 0 0!important
+}
+
+.zi-zakladki-o-t-nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-o-t-nav-el {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 14px;
+}
+.zi-zakladki-o-t-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-o-t-nav-el:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -115px;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.zi-zakladki-o-t-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-nav-el:active {
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -54px;
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.zi-zakladki-o-t-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-nav-el-active {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -54px;
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 14px
+}
+.zi-zakladki-o-t-nav-el-active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-cont-active {
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-o-t-cont {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-o-t-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-zakladki-o-t-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* font-size: 12px; */
+    /* line-height: 16px; */
+    /* text-align: left
+     */
+}
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav {
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-d-o-nav-el {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px 0px;
+    cursor: pointer;
+    line-height: 14px
+}
+.zi-zakladki-d-o-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-d-o-nav-el:hover {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -115px;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-nav-el:active {
+    display: inline-block;
+    height: 34px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -54px;
+    color: #4d4d4d;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-nav-el-active {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -54px;
+    color: #4d4d4d;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 15px 12px 0
+}
+.zi-zakladki-d-o-nav-el-active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-cont-active {
+    height: 352px;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-d-o-cont {
+    display: none;
+    position: relative;
+    width: 897px;
+    height: 352px;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-d-o-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 24px;
+    /*font-family: constantine*/
+}
+.zi-zakladki-d-o-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left
+}
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-door-1, .zi-door-2, .zi-door-3, .zi-door-4 {
+    display: block;
+    width: 100%x;
+    height: auto;
+    text-align: center;
+    opacity: 0.0
+}
+.zi-s-d {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    width: 180px;
+    margin: 10px 0;
+    border: 1px solid #bababa;
+    padding: 2px
+}
+.pagedescription .zi-s-d img {
+    margin: 0 auto!important
+}
+
+.zi-big-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+.zi-first-screen-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-top: 20px; */
+    /* text-align: left
+     */
+}
+.zi-zakladki-head-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-f-scr-hr {
+    height: 3px;
+    margin: 30px auto;
+    border-bottom: 1px dashed #CCC
+}
+
+.zi-d-pak-title {
+    font-size: 12px
+}
+.zi-p-d-punkt {
+    display: block;
+    height: auto;
+    margin: 3px auto 0 auto;
+    padding: 7px;
+    font-size: 12px;
+    background: #f1f1f1;
+    border-bottom: 0px solid #fff;
+    opacity: 0.5
+}
+
+.zi-big-title-call b, .zi-big-title-call strong {
+    /*font-family: inherit!important*/
+}
+
+#zi-cl-1 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-11.png');
+    background-position: 0px 0px
+}
+#zi-cl-1:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-11.png');
+    background-position: 0px 141px
+}
+#zi-cl-2 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-12.png');
+    background-position: 0px 0px
+}
+#zi-cl-2:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-12.png');
+    background-position: 0px 141px
+}
+#zi-cl-3 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-3.png');
+    background-position: 0px 0px
+}
+#zi-cl-3:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-3.png');
+    background-position: 0px 141px
+}
+#zi-cl-4 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-4.png');
+    background-position: 0px 0px
+}
+#zi-cl-4:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-4.png');
+    background-position: 0px 141px
+}
+#zi-cl-5 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-5.png');
+    background-position: 0px 0px
+}
+#zi-cl-5:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-5.png');
+    background-position: 0px 141px
+}
+#zi-cl-6 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-6.png');
+    background-position: 0px 0px
+}
+#zi-cl-6:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-6.png');
+    background-position: 0px 141px
+}
+#zi-cl-7 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-13.png');
+    background-position: 0px 0px
+}
+#zi-cl-7:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-13.png');
+    background-position: 0px 141px
+}
+#zi-cl-8 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-14.png');
+    background-position: 0px 0px
+}
+#zi-cl-8:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-14.png');
+    background-position: 0px 141px
+}
+#zi-cl-9 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-9.png');
+    background-position: 0px 0px
+}
+#zi-cl-9:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-9.png');
+    background-position: 0px 141px
+}
+#zi-cl-10 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-10.png');
+    background-position: 0px 0px
+}
+#zi-cl-10:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-10.png');
+    background-position: 0px 141px
+}
+
+.preimtbl td img {
+    /* max-width: 185px!important
+     */
+}
+.preimtbl tr td:first-child,
+.preimtbl tr td:nth-child(3),
+.preimtbl tr td:nth-child(5) {
+    max-width: 185px!important
+}
+.zi-big-title, .zi-h2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-big-title-comment {
+}
+.zi-big-title-call {
+}
+.zi-first-screen-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-top: 10px; */
+    /* font-size: 12px; */
+    /* text-align: left
+     */
+}
+.zi-first-screen-descr-main {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+    text-align: left
+}
+
+.zi-zakladki-head-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-f-scr-hr {
+    width: 100%;
+    height: 3px;
+    margin: 30px auto;
+    border-bottom: 1px dashed #CCC
+}
+
+.zi-portfolio {
+    width: 100%;
+    margin: 0 auto
+}
+.zi-port {
+    display: none
+}
+#zi-right {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 850px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer
+}
+#zi-left {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+    display: none
+}
+
+.zi-w-okna-preim {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    /*font-family: constantine*/
+}
+.zi-w-okna-preim-desc {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 14px; */
+    /* font-weight: 100; */
+    /* text-align: left
+     */
+}
+.zi-w-okna-preim-desc img {
+    float: left;
+    margin-right: 20px
+}
+
+.zi-steklo-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-steklo-desrc {
+    display: block;
+    height: auto;
+    /* font-size: 12px; */
+    /* line-height: 15px; */
+    /* font-weight: normal; */
+    /* text-align: left
+     */
+}
+
+.zi-prof-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    text-align: left
+}
+.zi-prof-descr img {
+    float: left
+}
+
+.zi-zakladki table tr td:first-child, .zi-f-screen-table tr td:first-child {
+    padding: 0 20px 20px 0!important
+}
+.zi-f-screen-table tr td {
+    padding: 0 0px 20px 0!important
+}
+.zi-zakladki-nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-nav-el {
+}
+.zi-zakladki-nav-el:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -115px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el:active {
+}
+.zi-zakladki-nav-el-active {
+    cursor: pointer
+}
+.zi-zakladki-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-active span {
+}
+
+.zi-zakladki-nav-el-decor {
+}
+.zi-zakladki-nav-el-decor:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: 50% -115px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el-decor:active {
+}
+.zi-zakladki-nav-el-active-decor {
+}
+.zi-zakladki-nav-el-decor span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-nav-el-decor:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-decor:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-active-decor span {
+}
+
+.zi-zakladki-cont-active {
+    width: 100%;
+    margin: 55px auto 0px;
+    background: #fff
+}
+.zi-zakladki-cont {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 352px;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 22px;
+    /*font-family: constantine*/
+}
+.zi-zakladki-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* font-size: 12px
+     */
+}
+.zi-zakladki-cont-descr-big {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #333
+}
+
+.zi-zakladki-cont-descr-big img {
+    float: left;
+    margin-right: 30px
+}
+
+.zi-zakladki-cont-doors-active {
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-cont-doors {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-cont-doors-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    /*font-family: constantine*/
+}
+
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+
+.zi-comment {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin: 48px auto 34px auto; */
+    /* line-height: 19px; */
+    text-align: left
+}
+.zi-comment-main {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 48px auto 0 auto;
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+    line-height: 19px;
+    text-align: left
+}
+
+.zi-mat-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 0px
+}
+.zi-mat-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* font-size: 12px
+     */
+}
+.zi-distance {
+    width: 100%;
+    height: 33px
+}
+
+.zi-zayava-txt {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #666;
+    text-align: center
+}
+.zi-zayava-phone {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 58px;
+    color: #666;
+    text-align: center
+}
+.zi-input {
+    width: 243px;
+    height: 57px;
+    padding: 0 20px;
+    margin: 8px 10px 0 0;
+    border: 1px solid #e6e6e6;
+    font-style: italic;
+    font-size: 18px
+}
+.zi-form-footer {
+    display: block;
+    width: 737px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center
+}
+.zi-zayava-button {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+.zi-zayava-button:hover {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -95px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+.zi-zayava-button:active {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -185px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+
+#zi-popup {
+    display: none;
+    position: fixed;
+    width: 850px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -425px;
+    background: #efefef;
+    z-index: 1000;
+    box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -webkit-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -moz-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -o-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    opacity: 0.0
+}
+#zi-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0.3;
+    cursor: pointer
+}
+#zi-close:hover {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 1.0;
+    cursor: pointer
+}
+
+.zi-main-nav-active {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000
+}
+.zi-main-nav {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #8c8c8c
+}
+.zi-main-nav:hover {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    color: #666
+}
+.zi-main-nav:active {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    color: #666
+}
+.zi-phone {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: 370px;
+    /*font-family: Arial,sans-serif*/
+}
+#zi-phone-time {
+    display: block;
+    font-size: 12px;
+    color: #999
+}
+#zi-phone-num {
+    display: block;
+    font-size: 18px;
+    color: #666
+}
+.zi-top-but {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    z-index: 10000
+}
+.zi-top-but:hover {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    background-position: 0px -52px
+}
+.zi-top-but:active {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    background-position: 0px 49px
+}
+
+.pagedescription .zi-f-screen-table td img,
+.zi-zakladki table td img {
+    margin: 0 0 0 0!important
+}
+
+.zi-zakladki-o-t-nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-o-t-nav-el {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 14px;
+}
+.zi-zakladki-o-t-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-o-t-nav-el:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -115px;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.zi-zakladki-o-t-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-nav-el:active {
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -54px;
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.zi-zakladki-o-t-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-nav-el-active {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -54px;
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 14px
+}
+.zi-zakladki-o-t-nav-el-active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-cont-active {
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-o-t-cont {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-o-t-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-zakladki-o-t-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* font-size: 12px; */
+    /* line-height: 16px; */
+    /* text-align: left
+     */
+}
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav {
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-d-o-nav-el {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px 0px;
+    cursor: pointer;
+    line-height: 14px
+}
+.zi-zakladki-d-o-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-d-o-nav-el:hover {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -115px;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-nav-el:active {
+    display: inline-block;
+    height: 34px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -54px;
+    color: #4d4d4d;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-nav-el-active {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -54px;
+    color: #4d4d4d;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 15px 12px 0
+}
+.zi-zakladki-d-o-nav-el-active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-cont-active {
+    height: 352px;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-d-o-cont {
+    display: none;
+    position: relative;
+    width: 897px;
+    height: 352px;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-d-o-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 24px;
+    /*font-family: constantine*/
+}
+.zi-zakladki-d-o-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left
+}
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-door-1, .zi-door-2, .zi-door-3, .zi-door-4 {
+    display: block;
+    width: 100%x;
+    height: auto;
+    text-align: center;
+    opacity: 0.0
+}
+.zi-s-d {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    width: 180px;
+    margin: 10px 0;
+    border: 1px solid #bababa;
+    padding: 2px
+}
+.pagedescription .zi-s-d img {
+    margin: 0 auto!important
+}
+
+.zi-big-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+.zi-first-screen-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-top: 20px; */
+    /* text-align: left
+     */
+}
+.zi-zakladki-head-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-f-scr-hr {
+    height: 3px;
+    margin: 30px auto;
+    border-bottom: 1px dashed #CCC
+}
+
+.zi-d-pak-title {
+    font-size: 12px
+}
+.zi-p-d-punkt {
+    display: block;
+    height: auto;
+    margin: 3px auto 0 auto;
+    padding: 7px;
+    font-size: 12px;
+    background: #f1f1f1;
+    border-bottom: 0px solid #fff;
+    opacity: 0.5
+}
+
+.zi-big-title-call b, .zi-big-title-call strong {
+    /*font-family: inherit!important*/
+}
+
+#zi-cl-1 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-11.png');
+    background-position: 0px 0px
+}
+#zi-cl-1:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-11.png');
+    background-position: 0px 141px
+}
+#zi-cl-2 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-12.png');
+    background-position: 0px 0px
+}
+#zi-cl-2:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-12.png');
+    background-position: 0px 141px
+}
+#zi-cl-3 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-3.png');
+    background-position: 0px 0px
+}
+#zi-cl-3:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-3.png');
+    background-position: 0px 141px
+}
+#zi-cl-4 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-4.png');
+    background-position: 0px 0px
+}
+#zi-cl-4:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-4.png');
+    background-position: 0px 141px
+}
+#zi-cl-5 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-5.png');
+    background-position: 0px 0px
+}
+#zi-cl-5:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-5.png');
+    background-position: 0px 141px
+}
+#zi-cl-6 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-6.png');
+    background-position: 0px 0px
+}
+#zi-cl-6:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-6.png');
+    background-position: 0px 141px
+}
+#zi-cl-7 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-13.png');
+    background-position: 0px 0px
+}
+#zi-cl-7:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-13.png');
+    background-position: 0px 141px
+}
+#zi-cl-8 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-14.png');
+    background-position: 0px 0px
+}
+#zi-cl-8:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-14.png');
+    background-position: 0px 141px
+}
+#zi-cl-9 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-9.png');
+    background-position: 0px 0px
+}
+#zi-cl-9:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-9.png');
+    background-position: 0px 141px
+}
+#zi-cl-10 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-10.png');
+    background-position: 0px 0px
+}
+#zi-cl-10:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-10.png');
+    background-position: 0px 141px
+}
+
+.preimtbl td img {
+    /* max-width: 185px!important
+     */
+}
+.preimtbl tr td:first-child,
+.preimtbl tr td:nth-child(3),
+.preimtbl tr td:nth-child(5) {
+    max-width: 185px!important
+}
+.zi-big-title, .zi-h2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+    ;
+    line-height: 26px;
+}
+.zi-big-title-comment {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    /* font-size: 18px; */
+    text-align: center;
+    /*font-family: fontinsans*/
+}
+.zi-big-title-call {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    /*font-family: constantine;*/
+    line-height: 26px;
+}
+.zi-big-title-call b{
+    font-weight:normal
+}
+.zi-first-screen-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin-top: 10px; */
+    /* font-size: 15px; */
+    /* text-align: left
+     */
+}
+.zi-first-screen-descr-main {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+    text-align: left
+}
+
+.zi-zakladki-head-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-f-scr-hr {
+    width: 100%;
+    height: 3px;
+    margin: 30px auto;
+    border-bottom: 1px dashed #CCC
+}
+
+.zi-portfolio {
+    width: 100%;
+    margin: 0 auto
+}
+.zi-port {
+    display: none
+}
+#zi-right {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 850px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer
+}
+#zi-left {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+    display: none
+}
+
+.zi-w-okna-preim {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    /*font-family: constantine*/
+}
+.zi-w-okna-preim-desc {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 15px; */
+    /* font-weight: 100; */
+    /* text-align: left
+     */
+}
+.zi-w-okna-preim-desc img {
+    float: left;
+    margin-right: 20px
+}
+
+.zi-steklo-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-steklo-desrc {
+    display: block;
+    height: auto;
+    /* font-size: 15px; */
+    /* line-height: 15px; */
+    /* font-weight: normal; */
+    /* text-align: left
+     */
+}
+.preimtbl tr td:nth-child(1),
+.preimtbl tr td:nth-child(3),
+.preimtbl tr td:nth-child(5)
+{
+    width: 33%
+}
+.zi-prof-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    text-align: left
+}
+.zi-prof-descr img {
+    float: left
+}
+
+.zi-zakladki table tr td:first-child, .zi-f-screen-table tr td:first-child {
+    padding: 0 20px 20px 0!important
+}
+.zi-f-screen-table tr td {
+    padding: 0 0px 20px 0!important
+}
+.zi-zakladki-nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+    ;
+    font-size: 12px;
+}
+.zi-zakladki-nav-el {
+    display: inline-block;
+    padding: 15px 24px;
+    /* height: 40px; */
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px 0px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px -115px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el:active {
+}
+.zi-zakladki-nav-el-active {
+    display: inline-block;
+    padding: 15px 24px;
+}
+.zi-zakladki-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-nav-el-active span {
+}
+
+.zi-zakladki-nav-el-decor {
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% 0px
+}
+.zi-zakladki-nav-el-decor:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -115px;
+    cursor: pointer
+}
+.zi-zakladki-nav-el-decor:active {
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -55px;
+    color: #4d4d4d;
+    cursor: pointer
+}
+.zi-zakladki-nav-el-active-decor {
+    /* height: 40px; */
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -55px;
+    color: #4d4d4d
+}
+.zi-zakladki-nav-el-decor span {
+    border-bottom: 1px dashed #999
+    ;
+    letter-spacing: 0;
+}
+.zi-zakladki-nav-el-decor:hover span {
+    border-bottom: 1px dashed transparent
+}
+.zi-zakladki-nav-el-decor:active span {
+    border-bottom: 1px dashed transparent
+}
+.zi-zakladki-nav-el-active-decor span {
+    border-bottom: 1px dashed transparent
+}
+
+.zi-zakladki-cont-active {
+    width: 100%;
+    margin: 20px auto 0px;
+    background: #fff
+}
+.zi-zakladki-cont {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 352px;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 22px;
+    /*font-family: constantine*/
+}
+.zi-zakladki-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* font-size: 15px; */
+}
+.zi-zakladki-cont-descr-big {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #333
+}
+
+.zi-zakladki-cont-descr-big img {
+    float: left;
+    margin-right: 30px
+}
+
+.zi-zakladki-cont-doors-active {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    background: #fff
+}
+.zi-zakladki-cont-doors {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-cont-doors-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    /*font-family: constantine*/
+}
+
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+
+.zi-comment {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* margin: 48px auto 34px auto; */
+    /* line-height: 30px; */
+    text-align: left
+    ;
+    margin-top: 20px;
+}
+.zi-comment-main {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 48px auto 0 auto;
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+    line-height: 19px;
+    text-align: left
+}
+
+.zi-mat-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 0px
+}
+.zi-mat-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* font-size: 16px; */
+    /* text-align: justify; */
+    /* line-height: 30px; */
+}
+.zi-distance {
+    width: 100%;
+    height: 33px
+}
+
+.zi-zayava-txt {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #666;
+    text-align: center
+}
+.zi-zayava-phone {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    font-size: 58px;
+    color: #666;
+    text-align: center
+}
+.zi-input {
+    width: 243px;
+    height: 57px;
+    padding: 0 20px;
+    margin: 8px 10px 0 0;
+    border: 1px solid #e6e6e6;
+    font-style: italic;
+    font-size: 18px
+}
+.zi-form-footer {
+    display: block;
+    width: 737px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center
+}
+.zi-zayava-button {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+.zi-zayava-button:hover {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -95px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+.zi-zayava-button:active {
+    display: inline-block;
+    float: right;
+    width: 233px;
+    height: 70px;
+    margin-left: -12px;
+    margin-bottom: -27px;
+    background: url('http://antini.ru/zi-img/zi-zayava-button.png');
+    background-repeat: no-repeat;
+    background-position: 0px -185px;
+    border: 0px solid#000;
+    cursor: pointer
+}
+
+#zi-popup {
+    display: none;
+    position: fixed;
+    width: 850px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -425px;
+    background: #efefef;
+    z-index: 1000;
+    box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -webkit-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -moz-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    -o-box-shadow: 0px 0px 30px rgba(0,0,0,1.0);
+    opacity: 0.0
+}
+#zi-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0.3;
+    cursor: pointer
+}
+#zi-close:hover {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 1.0;
+    cursor: pointer
+}
+
+.zi-main-nav-active {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000
+}
+.zi-main-nav {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #8c8c8c
+}
+.zi-main-nav:hover {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    color: #666
+}
+.zi-main-nav:active {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    color: #666
+}
+.zi-phone {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: 370px;
+    /*font-family: Arial,sans-serif*/
+}
+#zi-phone-time {
+    display: block;
+    font-size: 12px;
+    color: #999
+}
+#zi-phone-num {
+    display: block;
+    font-size: 18px;
+    color: #666
+}
+.zi-top-but {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    z-index: 10000
+}
+.zi-top-but:hover {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    background-position: 0px -52px
+}
+.zi-top-but:active {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 210px;
+    height: 50px;
+    margin-left: -540px;
+    background: url('http://antini.ru/zi-img/zi-top-but.png');
+    background-position: 0px 49px
+}
+
+.pagedescription .zi-f-screen-table td img,
+.zi-zakladki table td img {
+    margin: 0 0 0 0!important
+}
+
+.zi-zakladki-o-t-nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-o-t-nav-el {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 14px;
+}
+.zi-zakladki-o-t-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-o-t-nav-el:hover {
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -115px;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.zi-zakladki-o-t-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-nav-el:active {
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -54px;
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+.zi-zakladki-o-t-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-nav-el-active {
+    display: inline-block;
+    width: 185px;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png');
+    background-position: center -54px;
+    color: #4d4d4d;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    line-height: 14px
+}
+.zi-zakladki-o-t-nav-el-active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-o-t-cont-active {
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-o-t-cont {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-o-t-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    /*font-family: constantine;*/
+    text-align: center;
+    margin-bottom: 20px
+}
+.zi-zakladki-o-t-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* font-size: 15px; */
+    /* line-height: 16px; */
+    /* text-align: left
+     */
+}
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-d-o-nav {
+    height: auto;
+    text-align: center;
+    margin: 0 auto
+}
+.zi-zakladki-d-o-nav-el {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png');
+    background-position: -5px 0px;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 15px 12px 0
+}
+.zi-zakladki-d-o-nav-el span {
+    border-bottom: 1px dashed #999
+}
+.zi-zakladki-d-o-nav-el:hover {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    color: #999;
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -115px;
+    cursor: pointer;
+    padding: 15px 12px 0
+}
+.zi-zakladki-d-o-nav-el:hover span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-nav-el:active {
+    display: inline-block;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -54px;
+    color: #4d4d4d;
+    cursor: pointer;
+    padding: 15px 12px 0
+}
+.zi-zakladki-d-o-nav-el:active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-nav-el-active {
+    display: inline-block;
+    height: 40px;
+    padding-top: 17px;
+    font-size: 12px;
+    background: url('../img/zi-slider-nav.png') no-repeat;
+    background-position: 50% -54px;
+    color: #4d4d4d;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 15px 12px 0
+}
+.zi-zakladki-d-o-nav-el-active span {
+    border-bottom: 0px dashed #999
+}
+.zi-zakladki-d-o-cont-active {
+    height: 352px;
+    margin: 55px auto;
+    background: #fff
+}
+.zi-zakladki-d-o-cont {
+    display: none;
+    position: relative;
+    width: 897px;
+    height: 352px;
+    margin: 55px auto;
+    background: #fff;
+    opacity: 0.0
+}
+.zi-zakladki-d-o-cont-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 20px;
+    /*font-family: constantine*/
+}
+.zi-zakladki-d-o-cont-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left
+}
+.zi-zakladki-cont-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-cont-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-cont-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-door-1, .zi-door-2, .zi-door-3, .zi-door-4 {
+    display: block;
+    width: 100%x;
+    height: auto;
+    text-align: center;
+    opacity: 0.0
+}
+.zi-s-d {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    width: 180px;
+    margin: 10px 0;
+    border: 1px solid #bababa;
+    padding: 2px
+}
+.pagedescription .zi-s-d img {
+    margin: 0 auto!important
+}
+
+.zi-big-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center
+}
+.zi-first-screen-descr {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    text-align: justify;
+}
+.zi-zakladki-head-button {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -6px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:hover {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -61px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-zakladki-head-button:active {
+    width: 200px;
+    height: 45px;
+    background: url('http://antini.ru/zi-img/zi-zakladki-head-button.png');
+    background-position: -3px -107px;
+    margin: 20px auto 0 auto;
+    cursor: pointer
+}
+.zi-f-scr-hr {
+    height: 3px;
+    margin: 30px auto;
+    border-bottom: 1px dashed #CCC
+}
+
+.zi-d-pak-title {
+    font-size: 12px
+}
+.zi-p-d-punkt {
+    display: block;
+    height: auto;
+    margin: 3px auto 0 auto;
+    padding: 7px;
+    font-size: 12px;
+    background: #f1f1f1;
+    border-bottom: 0px solid #fff;
+    opacity: 0.5
+}
+.zi-p-d-punkt table tr td{
+    text-align:center!important;
+    width:120px
+}
+.zi-p-d-punkt table tr td:first-child{
+    text-align:left!important;
+}
+.zi-p-d-punkt table tr td:first-child,
+.zi-p-d-punkt-header table tr td:first-child
+{
+    width:250px
+}
+.zi-big-title-call b, .zi-big-title-call strong {
+    /*font-family: inherit!important*/
+}
+
+#zi-cl-1 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-11.png');
+    background-position: 0px 0px
+}
+#zi-cl-1:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-11.png');
+    background-position: 0px 141px
+}
+#zi-cl-2 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-12.png');
+    background-position: 0px 0px
+}
+#zi-cl-2:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-12.png');
+    background-position: 0px 141px
+}
+#zi-cl-3 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-3.png');
+    background-position: 0px 0px
+}
+#zi-cl-3:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-3.png');
+    background-position: 0px 141px
+}
+#zi-cl-4 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-4.png');
+    background-position: 0px 0px
+}
+#zi-cl-4:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-4.png');
+    background-position: 0px 141px
+}
+#zi-cl-5 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-5.png');
+    background-position: 0px 0px
+}
+#zi-cl-5:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-5.png');
+    background-position: 0px 141px
+}
+#zi-cl-6 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-6.png');
+    background-position: 0px 0px
+}
+#zi-cl-6:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-6.png');
+    background-position: 0px 141px
+}
+#zi-cl-7 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-13.png');
+    background-position: 0px 0px
+}
+#zi-cl-7:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-13.png');
+    background-position: 0px 141px
+}
+#zi-cl-8 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-14.png');
+    background-position: 0px 0px
+}
+#zi-cl-8:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-14.png');
+    background-position: 0px 141px
+}
+#zi-cl-9 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-9.png');
+    background-position: 0px 0px
+}
+#zi-cl-9:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-9.png');
+    background-position: 0px 141px
+}
+#zi-cl-10 {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-10.png');
+    background-position: 0px 0px
+}
+#zi-cl-10:hover {
+    width: 141px;
+    height: 141px;
+    background: url('http://antini.ru/zi-img/zi-cl-10.png');
+    background-position: 0px 141px
+}
+
+.preimtbl td img {
+    max-width: 185px!important;
+}
+.preimtbl tr td:first-child,
+.preimtbl tr td:nth-child(3),
+.preimtbl tr td:nth-child(5) {
+    max-width: 185px!important;
+}
+.preimtbl td img {
+    max-width: 165px!important;
+}
+.preimtbl tr td:first-child {
+    padding-right: 20px;
+}
+.preimtbl tr td:last-child {
+    padding-left: 20px;
+}
